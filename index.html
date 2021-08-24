@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<header>
+    <h1 class="corvermelho"> FORMULARIO DE CLIENTES
+    </h1>
+    <p class="teste"> Preencha seus dados! </p>
+</header>
+<form action="" method="post" enctype="multipart/form-data" >
+
+<div class="nome" >
+    <label for="">nome </label>
+    <input  aria-required="true"  name="nome"   placeholder="digite seu nome" type="text">
+    <label for="">email </label>
+    <input  aria-required="true"     name="email"placeholder="digite seu email" type="text">
+     <label for="">CPF</label>
+     <input aria-required="true" name="CPF"   placeholder="digite seu CPF"   type="number">
+</div>
+
+
+<div class="Endereço" >
+    <label for="">  Endereço</label>
+    <input  class="barraendereço" aria-required="true "  name="Endereço" placeholder="Digite seu endereço" type="text" >
+    <label for="">Bairro</label>
+    <input aria-required="true"  name="Bairro" placeholder="Digite seu bairro" aria-rowspan="20" type="text">
+    <label for="">CEP</label>
+    <input  aria-required="true" name="CEP" placeholder="Digite seu cep" type="number">
+
+    <label class="cidade" for="">Selecione sua cidade </label>
+     <select aria-selected="true"   name="cidade"> 
+     <option aria-selected="true" value="">Selecione </option> 
+     <option value="1"> Belo horizonte  </option>
+    <option value="2"> São Paulo </option>
+    <option value="3"> Fortaleza </option>
+    <option value="4"> João Pessoa </option>
+    <option value="5"> Natal </option>
+    <option value="6"> Recife </option>
+    <option value="7"> Porto Alegre </option> 
+     </select>
+</div>
+
+<div class="bairro">
+    <label for=""> bairro </label>
+    <input  aria-required="true" name="bairro" placeholder="bairro"   type="text">
+    <label for="">Complemento</label>
+    <input aria-required="true" name="complemento" placeholder="apartamento,casa"  type="text">
+    <label for=""> Número</label>
+     <input aria-required="true"   name="número"  placeholder="número" type="number">
+    
+    </div>
+
+
+
+<div  class="selecioneosexo">
+<p >Selecione seu sexo:</p>
+<label for="sexo1"    > <input   name="sexo"  value="M" id="sexo1" type="radio"> Masculino </label>
+<label for="sexo2"    > <input  name="sexo"  value="F" id="sexo2" type="radio"> Feminino </label>
+
+</div>
+
+
+
+<div class="Biografia" >
+    
+<label for="" >Biografia </label>
+<textarea name="Biografia" placeholder="digite sua biografia" aria-required="true" id="Biografia" cols="30" rows="10"></textarea>
+
+</div>
+
+<div  class="FOTODEPERFIL" >
+<label for=""> FOTO DE PERFIL </label>
+<input type="file" name="FOTO" >
+
+</div>
+
+<div class="checkbox" >
+<label for="">deseja receber e-mais sobre novos produtos e promoçoes?<input aria-required="true" type="checkbox"> </label>
+
+</div>
+
+
+<div>
+
+ <div class="submit">
+<button type="submit" name="enviar">Enviar</button>
+</div>
+
+</form>
+
+</body>
+</html>

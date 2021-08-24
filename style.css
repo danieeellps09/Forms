@@ -1,0 +1,77 @@
+.corvermelho {
+color:red ;
+border-top: black;
+margin-top: 30px;
+margin-left: 450px;
+}
+
+.teste {
+color:rgba(0, 0, 0, 0.959);
+width: 400px;
+margin-left: 100;
+height: 50px;
+font-weight: 200;
+font-style: normal;
+margin-top: 0px; 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nome {
+border-radius: 20px;
+margin-bottom: 10px;
+
+
+}
+
+.Endereço {
+border-radius: 30px;
+margin-top: 25px;
+margin-bottom: 20px;
+
+
+}
+
+.barraendereço {
+width: 400px;
+
+
+}
+
+
+
+
+.selecioneosexo {
+border-radius: 50px;
+margin-bottom: 20px;
+margin-top: 25px;
+}
+
+.Biografia {
+border-radius: 50px;
+margin-bottom: 20px;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+width: 500px;
+}
+
+.checkbox {
+border-radius: 30px;
+border-bottom: 20px;
+
+
+}
+
+
+.submit {
+border-radius: 20px;
+margin-top: 20px;
+
+
+}
+
+
+body {
+  
+  background-color: darkkhaki;
+}
