@@ -1,0 +1,118 @@
+/* geralzão css */
+
+* {
+  box-sizing: border-box;
+
+  font-family: Helvetica;
+}
+
+body {
+  background-image: url(imagens/tartarugas-ninja.png);
+  background-size: cover;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+#login-container,
+h1 {
+  align-items: center;
+  font-display: auto;
+  align-content: center;
+  padding-left: 70px;
+}
+
+#login-container,
+#email,
+#senha {
+  flex-direction: column;
+  display: block;
+  width: 330px;
+  padding-left: 50px;
+  border-style: solid;
+  justify-items: left;
+  justify-content: space-between;
+}
+
+#login {
+  width: 150px;
+  border-style: ridge 50px;
+  font-weight: 100px;
+  border-bottom: 50px;
+  margin-top: 40px;
+  margin-left: 80px;
+  height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+
+#esqueceuSenha {
+  border: none;
+  text-align: center;
+}
+
+a {
+  font-size: 20px;
+  display: block;
+}
+
+a:hover {
+  color: blue;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#login-container {
+  width: 420px;
+  margin-bottom: 30px;
+  height: 320px;
+  display: block;
+  background-color: white;
+  border-style: solid;
+}
+
+.radio
+{
+ background-color: #038595;
+    border-style: hidden;
+    margin-right: 700px;
+    height: 20px;
+    margin-top: 20px;
+    justify-items: left;
+    font-size: 20px;
+}
+
+
+
+
+.redes-sociais {
+  display: block;
+  background-color: blanchedalmond;
+  border-style: none;
+  border-width: 10px;
+  align-items: center;
+  margin-right: 590px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.redes-sociais i {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  margin: 0;
+  justify-content: space-between;
+}
+
+#registrar {
+  background-color: cornflowerblue;
+  margin-right: 590px;
+}
