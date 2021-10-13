@@ -14,25 +14,25 @@
     </h1>
     <p class="teste"> Preencha seus dados! </p>
 </header>
-<form action="" method="post" enctype="multipart/form-data" >
+<form  name="formuser" action="" method="post" enctype="multipart/form-data" >
 
 <div class="nome" >
     <label for="">nome </label>
-    <input  aria-required="true"  name="nome"   placeholder="digite seu nome" type="text">
+    <input  aria-required="true"  name="nome" id="nome"  placeholder="digite seu nome" type="text">
     <label for="">email </label>
-    <input  aria-required="true"     name="email"placeholder="digite seu email" type="text">
+    <input  aria-required="true"   id="email"  name="email"placeholder="digite seu email" type="text">
      <label for="">CPF</label>
-     <input aria-required="true" name="CPF"   placeholder="digite seu CPF"   type="number">
+     <input aria-required="true" name="CPF" id="CPF"  placeholder="digite seu CPF"   type="number">
 </div>
 
 
 <div class="Endereço" >
     <label for="">  Endereço</label>
-    <input  class="barraendereço" aria-required="true "  name="Endereço" placeholder="Digite seu endereço" type="text" >
+    <input  class="barraendereço" aria-required="true " id="endereço" name="Endereço" placeholder="Digite seu endereço" type="text" >
     <label for="">Bairro</label>
-    <input aria-required="true"  name="Bairro" placeholder="Digite seu bairro" aria-rowspan="20" type="text">
+    <input aria-required="true"  id="bairro"  name="Bairro" placeholder="Digite seu bairro" aria-rowspan="20" type="text">
     <label for="">CEP</label>
-    <input  aria-required="true" name="CEP" placeholder="Digite seu cep" type="number">
+    <input  aria-required="true" name="CEP" id="cep" placeholder="Digite seu cep"  pattern="[0-9]{5}-[0-9]{3}"  type="number">
 
     <label class="cidade" for="">Selecione sua cidade </label>
      <select aria-selected="true"   name="cidade"> 
@@ -48,8 +48,7 @@
 </div>
 
 <div class="bairro">
-    <label for=""> bairro </label>
-    <input  aria-required="true" name="bairro" placeholder="bairro"   type="text">
+ 
     <label for="">Complemento</label>
     <input aria-required="true" name="complemento" placeholder="apartamento,casa"  type="text">
     <label for=""> Número</label>
@@ -61,8 +60,8 @@
 
 <div  class="selecioneosexo">
 <p >Selecione seu sexo:</p>
-<label for="sexo1"    > <input   name="sexo"  value="M" id="sexo1" type="radio"> Masculino </label>
-<label for="sexo2"    > <input  name="sexo"  value="F" id="sexo2" type="radio"> Feminino </label>
+<label for="sexo1"   > <input   name="sexo"  value="M" id="sexo1" type="radio"> Masculino </label>
+<label for="sexo2"   > <input  name="sexo"  value="F" id="sexo2" type="radio"> Feminino </label>
 
 </div>
 
@@ -89,11 +88,13 @@
 
 <div>
 
- <div class="submit">
-<button type="submit" name="enviar">Enviar</button>
+ <div   class="submit">
+<button  type="submit" id="button" name="enviar">Enviar</button>
 </div>
 
 </form>
+
+<script src="script.js" ></script>
 
 </body>
 </html>
